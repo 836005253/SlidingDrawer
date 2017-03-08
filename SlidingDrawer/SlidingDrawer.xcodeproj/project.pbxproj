@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06BF04841E51A0180073B164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF04831E51A0180073B164 /* main.m */; };
+		06BF04871E51A0180073B164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF04861E51A0180073B164 /* AppDelegate.m */; };
+		06BF048A1E51A0180073B164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF04891E51A0180073B164 /* ViewController.m */; };
+		06BF048D1E51A0180073B164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BF048B1E51A0180073B164 /* Main.storyboard */; };
+		06BF04901E51A0180073B164 /* SlidingDrawer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06BF048E1E51A0180073B164 /* SlidingDrawer.xcdatamodeld */; };
+		06BF04921E51A0180073B164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06BF04911E51A0180073B164 /* Assets.xcassets */; };
+		06BF04951E51A0180073B164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BF04931E51A0180073B164 /* LaunchScreen.storyboard */; };
+		06BF04A01E51A0180073B164 /* SlidingDrawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF049F1E51A0180073B164 /* SlidingDrawerTests.m */; };
+		06BF04AB1E51A0180073B164 /* SlidingDrawerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF04AA1E51A0180073B164 /* SlidingDrawerUITests.m */; };
+		06BF04CB1E51A7290073B164 /* XCNSliderDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF04CA1E51A7290073B164 /* XCNSliderDrawerView.m */; };
+		06F6B2F91E6D012E00FFA3DC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F6B2F81E6D012E00FFA3DC /* FirstViewController.m */; };
+		06F6B2FC1E6D114F00FFA3DC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F6B2FB1E6D114F00FFA3DC /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06BF049C1E51A0180073B164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06BF04771E51A0180073B164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06BF047E1E51A0180073B164;
+			remoteInfo = SlidingDrawer;
+		};
+		06BF04A71E51A0180073B164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06BF04771E51A0180073B164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06BF047E1E51A0180073B164;
+			remoteInfo = SlidingDrawer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06BF047F1E51A0180073B164 /* SlidingDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06BF04831E51A0180073B164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06BF04851E51A0180073B164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06BF04861E51A0180073B164 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06BF04881E51A0180073B164 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06BF04891E51A0180073B164 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06BF048C1E51A0180073B164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06BF048F1E51A0180073B164 /* SlidingDrawer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SlidingDrawer.xcdatamodel; sourceTree = "<group>"; };
+		06BF04911E51A0180073B164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06BF04941E51A0180073B164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06BF04961E51A0180073B164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06BF049B1E51A0180073B164 /* SlidingDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06BF049F1E51A0180073B164 /* SlidingDrawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingDrawerTests.m; sourceTree = "<group>"; };
+		06BF04A11E51A0180073B164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06BF04A61E51A0180073B164 /* SlidingDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingDrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06BF04AA1E51A0180073B164 /* SlidingDrawerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingDrawerUITests.m; sourceTree = "<group>"; };
+		06BF04AC1E51A0180073B164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06BF04C91E51A7290073B164 /* XCNSliderDrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNSliderDrawerView.h; sourceTree = "<group>"; };
+		06BF04CA1E51A7290073B164 /* XCNSliderDrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCNSliderDrawerView.m; sourceTree = "<group>"; };
+		06F6B2F71E6D012E00FFA3DC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		06F6B2F81E6D012E00FFA3DC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		06F6B2FA1E6D114F00FFA3DC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		06F6B2FB1E6D114F00FFA3DC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06BF047C1E51A0180073B164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06BF04981E51A0180073B164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06BF04A31E51A0180073B164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06BF04761E51A0180073B164 = {
+			isa = PBXGroup;
+			children = (
+				06BF04811E51A0180073B164 /* SlidingDrawer */,
+				06BF049E1E51A0180073B164 /* SlidingDrawerTests */,
+				06BF04A91E51A0180073B164 /* SlidingDrawerUITests */,
+				06BF04801E51A0180073B164 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06BF04801E51A0180073B164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06BF047F1E51A0180073B164 /* SlidingDrawer.app */,
+				06BF049B1E51A0180073B164 /* SlidingDrawerTests.xctest */,
+				06BF04A61E51A0180073B164 /* SlidingDrawerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06BF04811E51A0180073B164 /* SlidingDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				06BF04851E51A0180073B164 /* AppDelegate.h */,
+				06BF04861E51A0180073B164 /* AppDelegate.m */,
+				06BF04881E51A0180073B164 /* ViewController.h */,
+				06BF04891E51A0180073B164 /* ViewController.m */,
+				06BF04C91E51A7290073B164 /* XCNSliderDrawerView.h */,
+				06BF04CA1E51A7290073B164 /* XCNSliderDrawerView.m */,
+				06F6B2F71E6D012E00FFA3DC /* FirstViewController.h */,
+				06F6B2F81E6D012E00FFA3DC /* FirstViewController.m */,
+				06F6B2FA1E6D114F00FFA3DC /* SecondViewController.h */,
+				06F6B2FB1E6D114F00FFA3DC /* SecondViewController.m */,
+				06BF048B1E51A0180073B164 /* Main.storyboard */,
+				06BF04911E51A0180073B164 /* Assets.xcassets */,
+				06BF04931E51A0180073B164 /* LaunchScreen.storyboard */,
+				06BF04961E51A0180073B164 /* Info.plist */,
+				06BF048E1E51A0180073B164 /* SlidingDrawer.xcdatamodeld */,
+				06BF04821E51A0180073B164 /* Supporting Files */,
+			);
+			path = SlidingDrawer;
+			sourceTree = "<group>";
+		};
+		06BF04821E51A0180073B164 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06BF04831E51A0180073B164 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06BF049E1E51A0180073B164 /* SlidingDrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				06BF049F1E51A0180073B164 /* SlidingDrawerTests.m */,
+				06BF04A11E51A0180073B164 /* Info.plist */,
+			);
+			path = SlidingDrawerTests;
+			sourceTree = "<group>";
+		};
+		06BF04A91E51A0180073B164 /* SlidingDrawerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06BF04AA1E51A0180073B164 /* SlidingDrawerUITests.m */,
+				06BF04AC1E51A0180073B164 /* Info.plist */,
+			);
+			path = SlidingDrawerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06BF047E1E51A0180073B164 /* SlidingDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06BF04AF1E51A0180073B164 /* Build configuration list for PBXNativeTarget "SlidingDrawer" */;
+			buildPhases = (
+				06BF047B1E51A0180073B164 /* Sources */,
+				06BF047C1E51A0180073B164 /* Frameworks */,
+				06BF047D1E51A0180073B164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingDrawer;
+			productName = SlidingDrawer;
+			productReference = 06BF047F1E51A0180073B164 /* SlidingDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06BF049A1E51A0180073B164 /* SlidingDrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06BF04B21E51A0180073B164 /* Build configuration list for PBXNativeTarget "SlidingDrawerTests" */;
+			buildPhases = (
+				06BF04971E51A0180073B164 /* Sources */,
+				06BF04981E51A0180073B164 /* Frameworks */,
+				06BF04991E51A0180073B164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06BF049D1E51A0180073B164 /* PBXTargetDependency */,
+			);
+			name = SlidingDrawerTests;
+			productName = SlidingDrawerTests;
+			productReference = 06BF049B1E51A0180073B164 /* SlidingDrawerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06BF04A51E51A0180073B164 /* SlidingDrawerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06BF04B51E51A0180073B164 /* Build configuration list for PBXNativeTarget "SlidingDrawerUITests" */;
+			buildPhases = (
+				06BF04A21E51A0180073B164 /* Sources */,
+				06BF04A31E51A0180073B164 /* Frameworks */,
+				06BF04A41E51A0180073B164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06BF04A81E51A0180073B164 /* PBXTargetDependency */,
+			);
+			name = SlidingDrawerUITests;
+			productName = SlidingDrawerUITests;
+			productReference = 06BF04A61E51A0180073B164 /* SlidingDrawerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06BF04771E51A0180073B164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = XCN;
+				TargetAttributes = {
+					06BF047E1E51A0180073B164 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					06BF049A1E51A0180073B164 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06BF047E1E51A0180073B164;
+					};
+					06BF04A51E51A0180073B164 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06BF047E1E51A0180073B164;
+					};
+				};
+			};
+			buildConfigurationList = 06BF047A1E51A0180073B164 /* Build configuration list for PBXProject "SlidingDrawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06BF04761E51A0180073B164;
+			productRefGroup = 06BF04801E51A0180073B164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06BF047E1E51A0180073B164 /* SlidingDrawer */,
+				06BF049A1E51A0180073B164 /* SlidingDrawerTests */,
+				06BF04A51E51A0180073B164 /* SlidingDrawerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06BF047D1E51A0180073B164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BF04951E51A0180073B164 /* LaunchScreen.storyboard in Resources */,
+				06BF04921E51A0180073B164 /* Assets.xcassets in Resources */,
+				06BF048D1E51A0180073B164 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06BF04991E51A0180073B164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06BF04A41E51A0180073B164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06BF047B1E51A0180073B164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BF048A1E51A0180073B164 /* ViewController.m in Sources */,
+				06F6B2F91E6D012E00FFA3DC /* FirstViewController.m in Sources */,
+				06BF04901E51A0180073B164 /* SlidingDrawer.xcdatamodeld in Sources */,
+				06F6B2FC1E6D114F00FFA3DC /* SecondViewController.m in Sources */,
+				06BF04871E51A0180073B164 /* AppDelegate.m in Sources */,
+				06BF04CB1E51A7290073B164 /* XCNSliderDrawerView.m in Sources */,
+				06BF04841E51A0180073B164 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06BF04971E51A0180073B164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BF04A01E51A0180073B164 /* SlidingDrawerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06BF04A21E51A0180073B164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BF04AB1E51A0180073B164 /* SlidingDrawerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06BF049D1E51A0180073B164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06BF047E1E51A0180073B164 /* SlidingDrawer */;
+			targetProxy = 06BF049C1E51A0180073B164 /* PBXContainerItemProxy */;
+		};
+		06BF04A81E51A0180073B164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06BF047E1E51A0180073B164 /* SlidingDrawer */;
+			targetProxy = 06BF04A71E51A0180073B164 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06BF048B1E51A0180073B164 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06BF048C1E51A0180073B164 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06BF04931E51A0180073B164 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06BF04941E51A0180073B164 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06BF04AD1E51A0180073B164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06BF04AE1E51A0180073B164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06BF04B01E51A0180073B164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SlidingDrawer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunna.cn.SlidingDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		06BF04B11E51A0180073B164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SlidingDrawer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunna.cn.SlidingDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06BF04B31E51A0180073B164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlidingDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunna.cn.SlidingDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlidingDrawer.app/SlidingDrawer";
+			};
+			name = Debug;
+		};
+		06BF04B41E51A0180073B164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlidingDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunna.cn.SlidingDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlidingDrawer.app/SlidingDrawer";
+			};
+			name = Release;
+		};
+		06BF04B61E51A0180073B164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlidingDrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunna.cn.SlidingDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlidingDrawer;
+			};
+			name = Debug;
+		};
+		06BF04B71E51A0180073B164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlidingDrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunna.cn.SlidingDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlidingDrawer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06BF047A1E51A0180073B164 /* Build configuration list for PBXProject "SlidingDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06BF04AD1E51A0180073B164 /* Debug */,
+				06BF04AE1E51A0180073B164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06BF04AF1E51A0180073B164 /* Build configuration list for PBXNativeTarget "SlidingDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06BF04B01E51A0180073B164 /* Debug */,
+				06BF04B11E51A0180073B164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06BF04B21E51A0180073B164 /* Build configuration list for PBXNativeTarget "SlidingDrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06BF04B31E51A0180073B164 /* Debug */,
+				06BF04B41E51A0180073B164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06BF04B51E51A0180073B164 /* Build configuration list for PBXNativeTarget "SlidingDrawerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06BF04B61E51A0180073B164 /* Debug */,
+				06BF04B71E51A0180073B164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		06BF048E1E51A0180073B164 /* SlidingDrawer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				06BF048F1E51A0180073B164 /* SlidingDrawer.xcdatamodel */,
+			);
+			currentVersion = 06BF048F1E51A0180073B164 /* SlidingDrawer.xcdatamodel */;
+			path = SlidingDrawer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 06BF04771E51A0180073B164 /* Project object */;
+}
